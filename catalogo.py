@@ -4,8 +4,8 @@ class Catalogo:
         self.filmes= dict()
         self.catalogo = list()
 
-    def menu(self):
-        self.filmes['Titulo'] = self.filme.titulo
+    def salvar(self):
+        self.filmes["Titulo"] = self.filme.titulo
         self.filmes['Classificação'] = self.filme.classificação
         self.filmes['Genero'] = self.filme.genero
         self.filmes['Sinopse'] = self.filme.sinopse
